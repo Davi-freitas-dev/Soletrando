@@ -1,16 +1,11 @@
 Soletrando
 📚 Descrição
 
-<<<<<<< HEAD
+
 Soletrando é um projeto educacional que auxilia no aprendizado da ortografia correta das palavras, utilizando imagens como referência visual.
 
 O usuário visualiza uma imagem, identifica a palavra correspondente e digita a soletração correta, tornando o aprendizado mais intuitivo e interativo.
-=======
-##  Descri��o
-O **Soletrando** � um projeto educacional desenvolvido para auxiliar no aprendizado da **ortografia correta das palavras**, utilizando **imagens como refer�ncia visual**.
 
-O usu�rio **visualiza uma imagem**, identifica a palavra correspondente e **digita a soletra��o correta**, tornando o aprendizado mais intuitivo e interativo.
->>>>>>> parent of 8c9ae1f (atualização do README)
 
 🎯 Objetivos do Projeto
 
