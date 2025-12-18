@@ -1,0 +1,354 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>imagens\soletrando1.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="audios\acertou.wav" />
+    <None Remove="audios\amapa.wav" />
+    <None Remove="audios\barata.wav" />
+    <None Remove="audios\barco.wav" />
+    <None Remove="audios\bife.wav" />
+    <None Remove="audios\boca.wav" />
+    <None Remove="audios\boi.wav" />
+    <None Remove="audios\bola.wav" />
+    <None Remove="audios\bolo.wav" />
+    <None Remove="audios\bone.wav" />
+    <None Remove="audios\bota.wav" />
+    <None Remove="audios\cabeca.wav" />
+    <None Remove="audios\camisa.wav" />
+    <None Remove="audios\caneta.wav" />
+    <None Remove="audios\casa.wav" />
+    <None Remove="audios\cavala.wav" />
+    <None Remove="audios\cobra.wav" />
+    <None Remove="audios\coco.wav" />
+    <None Remove="audios\cuca.wav" />
+    <None Remove="audios\cutia.wav" />
+    <None Remove="audios\dado.wav" />
+    <None Remove="audios\doce.wav" />
+    <None Remove="audios\ema.wav" />
+    <None Remove="audios\errou.wav" />
+    <None Remove="audios\faca.wav" />
+    <None Remove="audios\figo.wav" />
+    <None Remove="audios\foca.wav" />
+    <None Remove="audios\girafa.wav" />
+    <None Remove="audios\iara.wav" />
+    <None Remove="audios\jabuti.wav" />
+    <None Remove="audios\jacare.wav" />
+    <None Remove="audios\jipe.wav" />
+    <None Remove="audios\leoa.wav" />
+    <None Remove="audios\lirio.wav" />
+    <None Remove="audios\lobo.wav" />
+    <None Remove="audios\lua.wav" />
+    <None Remove="audios\lula.wav" />
+    <None Remove="audios\luva.wav" />
+    <None Remove="audios\mapa.wav" />
+    <None Remove="audios\meia.wav" />
+    <None Remove="audios\moto.wav" />
+    <None Remove="audios\mula.wav" />
+    <None Remove="audios\murici.wav" />
+    <None Remove="audios\muro.wav" />
+    <None Remove="audios\navio.wav" />
+    <None Remove="audios\neve.wav" />
+    <None Remove="audios\orca.wav" />
+    <None Remove="audios\ovo.wav" />
+    <None Remove="audios\para.wav" />
+    <None Remove="audios\parana.wav" />
+    <None Remove="audios\pato.wav" />
+    <None Remove="audios\peixe.wav" />
+    <None Remove="audios\penedo.wav" />
+    <None Remove="audios\peru.wav" />
+    <None Remove="audios\pilar.wav" />
+    <None Remove="audios\pipoca.wav" />
+    <None Remove="audios\rato.wav" />
+    <None Remove="audios\rosa.wav" />
+    <None Remove="audios\rua.wav" />
+    <None Remove="audios\sabia.wav" />
+    <None Remove="audios\saci.wav" />
+    <None Remove="audios\salada.wav" />
+    <None Remove="audios\sapato.wav" />
+    <None Remove="audios\sapo.wav" />
+    <None Remove="audios\seta.wav" />
+    <None Remove="audios\sopa.wav" />
+    <None Remove="audios\suco.wav" />
+    <None Remove="audios\taxi.wav" />
+    <None Remove="audios\tilapia.wav" />
+    <None Remove="audios\tucano.wav" />
+    <None Remove="audios\urubu.wav" />
+    <None Remove="audios\uva.wav" />
+    <None Remove="audios\vaca.wav" />
+    <None Remove="audios\vela.wav" />
+    <None Remove="audios\violeta.wav" />
+    <None Remove="audios\zebu.wav" />
+    <None Remove="imagens\amapa.png" />
+    <None Remove="imagens\barata.png" />
+    <None Remove="imagens\barco.png" />
+    <None Remove="imagens\bife.png" />
+    <None Remove="imagens\boca.png" />
+    <None Remove="imagens\boi.png" />
+    <None Remove="imagens\bola.png" />
+    <None Remove="imagens\bolo.png" />
+    <None Remove="imagens\bone.png" />
+    <None Remove="imagens\bota.png" />
+    <None Remove="imagens\cabeca.png" />
+    <None Remove="imagens\camisa.png" />
+    <None Remove="imagens\caneta.png" />
+    <None Remove="imagens\casa.png" />
+    <None Remove="imagens\cavala.png" />
+    <None Remove="imagens\cobra.png" />
+    <None Remove="imagens\coco.png" />
+    <None Remove="imagens\cuca.png" />
+    <None Remove="imagens\cutia.png" />
+    <None Remove="imagens\dado.png" />
+    <None Remove="imagens\doce.png" />
+    <None Remove="imagens\ema.png" />
+    <None Remove="imagens\faca.png" />
+    <None Remove="imagens\figo.png" />
+    <None Remove="imagens\foca.png" />
+    <None Remove="imagens\girafa.png" />
+    <None Remove="imagens\iara.png" />
+    <None Remove="imagens\jabuti.png" />
+    <None Remove="imagens\jacare.png" />
+    <None Remove="imagens\jipe.png" />
+    <None Remove="imagens\leoa.png" />
+    <None Remove="imagens\lirio.png" />
+    <None Remove="imagens\lobo.png" />
+    <None Remove="imagens\lua.png" />
+    <None Remove="imagens\lula.png" />
+    <None Remove="imagens\luva.png" />
+    <None Remove="imagens\mapa.png" />
+    <None Remove="imagens\meia.png" />
+    <None Remove="imagens\moto.png" />
+    <None Remove="imagens\mula.png" />
+    <None Remove="imagens\murici.png" />
+    <None Remove="imagens\muro.png" />
+    <None Remove="imagens\navio.png" />
+    <None Remove="imagens\neve.png" />
+    <None Remove="imagens\orca.png" />
+    <None Remove="imagens\ovo.png" />
+    <None Remove="imagens\para.png" />
+    <None Remove="imagens\parana.png" />
+    <None Remove="imagens\pato.png" />
+    <None Remove="imagens\peixe.png" />
+    <None Remove="imagens\penedo.png" />
+    <None Remove="imagens\peru.png" />
+    <None Remove="imagens\pilar.png" />
+    <None Remove="imagens\pipoca.png" />
+    <None Remove="imagens\rato.png" />
+    <None Remove="imagens\rosa.png" />
+    <None Remove="imagens\rua.png" />
+    <None Remove="imagens\sabia.png" />
+    <None Remove="imagens\saci.png" />
+    <None Remove="imagens\salada.png" />
+    <None Remove="imagens\sapato.png" />
+    <None Remove="imagens\sapo.png" />
+    <None Remove="imagens\seta.png" />
+    <None Remove="imagens\soletrando.png" />
+    <None Remove="imagens\som.png" />
+    <None Remove="imagens\sopa.png" />
+    <None Remove="imagens\suco.png" />
+    <None Remove="imagens\taxi.png" />
+    <None Remove="imagens\tilapia.png" />
+    <None Remove="imagens\tucano.png" />
+    <None Remove="imagens\urubu.png" />
+    <None Remove="imagens\uva.png" />
+    <None Remove="imagens\vaca.png" />
+    <None Remove="imagens\vela.png" />
+    <None Remove="imagens\violeta.png" />
+    <None Remove="imagens\zebu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="imagens\soletrando1.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="audios\acertou.wav" />
+    <EmbeddedResource Include="audios\amapa.wav" />
+    <EmbeddedResource Include="audios\barata.wav" />
+    <EmbeddedResource Include="audios\barco.wav" />
+    <EmbeddedResource Include="audios\bife.wav" />
+    <EmbeddedResource Include="audios\boca.wav" />
+    <EmbeddedResource Include="audios\boi.wav" />
+    <EmbeddedResource Include="audios\bola.wav" />
+    <EmbeddedResource Include="audios\bolo.wav" />
+    <EmbeddedResource Include="audios\bone.wav" />
+    <EmbeddedResource Include="audios\bota.wav" />
+    <EmbeddedResource Include="audios\cabeca.wav" />
+    <EmbeddedResource Include="audios\camisa.wav" />
+    <EmbeddedResource Include="audios\caneta.wav" />
+    <EmbeddedResource Include="audios\casa.wav" />
+    <EmbeddedResource Include="audios\cavala.wav" />
+    <EmbeddedResource Include="audios\cobra.wav" />
+    <EmbeddedResource Include="audios\coco.wav" />
+    <EmbeddedResource Include="audios\cuca.wav" />
+    <EmbeddedResource Include="audios\cutia.wav" />
+    <EmbeddedResource Include="audios\dado.wav" />
+    <EmbeddedResource Include="audios\doce.wav" />
+    <EmbeddedResource Include="audios\ema.wav" />
+    <EmbeddedResource Include="audios\errou.wav" />
+    <EmbeddedResource Include="audios\faca.wav" />
+    <EmbeddedResource Include="audios\figo.wav" />
+    <EmbeddedResource Include="audios\foca.wav" />
+    <EmbeddedResource Include="audios\girafa.wav" />
+    <EmbeddedResource Include="audios\iara.wav" />
+    <EmbeddedResource Include="audios\jabuti.wav" />
+    <EmbeddedResource Include="audios\jacare.wav" />
+    <EmbeddedResource Include="audios\jipe.wav" />
+    <EmbeddedResource Include="audios\leoa.wav" />
+    <EmbeddedResource Include="audios\lirio.wav" />
+    <EmbeddedResource Include="audios\lobo.wav" />
+    <EmbeddedResource Include="audios\lua.wav" />
+    <EmbeddedResource Include="audios\lula.wav" />
+    <EmbeddedResource Include="audios\luva.wav" />
+    <EmbeddedResource Include="audios\mapa.wav" />
+    <EmbeddedResource Include="audios\meia.wav" />
+    <EmbeddedResource Include="audios\moto.wav" />
+    <EmbeddedResource Include="audios\mula.wav">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="audios\murici.wav" />
+    <EmbeddedResource Include="audios\muro.wav" />
+    <EmbeddedResource Include="audios\navio.wav" />
+    <EmbeddedResource Include="audios\neve.wav" />
+    <EmbeddedResource Include="audios\orca.wav" />
+    <EmbeddedResource Include="audios\ovo.wav" />
+    <EmbeddedResource Include="audios\para.wav" />
+    <EmbeddedResource Include="audios\parana.wav" />
+    <EmbeddedResource Include="audios\pato.wav" />
+    <EmbeddedResource Include="audios\peixe.wav" />
+    <EmbeddedResource Include="audios\penedo.wav" />
+    <EmbeddedResource Include="audios\peru.wav" />
+    <EmbeddedResource Include="audios\pilar.wav" />
+    <EmbeddedResource Include="audios\pipoca.wav" />
+    <EmbeddedResource Include="audios\rato.wav" />
+    <EmbeddedResource Include="audios\rosa.wav" />
+    <EmbeddedResource Include="audios\rua.wav" />
+    <EmbeddedResource Include="audios\sabia.wav" />
+    <EmbeddedResource Include="audios\saci.wav" />
+    <EmbeddedResource Include="audios\salada.wav" />
+    <EmbeddedResource Include="audios\sapato.wav" />
+    <EmbeddedResource Include="audios\sapo.wav">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="audios\seta.wav" />
+    <EmbeddedResource Include="audios\sopa.wav" />
+    <EmbeddedResource Include="audios\suco.wav" />
+    <EmbeddedResource Include="audios\taxi.wav" />
+    <EmbeddedResource Include="audios\tilapia.wav" />
+    <EmbeddedResource Include="audios\tucano.wav" />
+    <EmbeddedResource Include="audios\urubu.wav" />
+    <EmbeddedResource Include="audios\uva.wav" />
+    <EmbeddedResource Include="audios\vaca.wav" />
+    <EmbeddedResource Include="audios\vela.wav" />
+    <EmbeddedResource Include="audios\violeta.wav" />
+    <EmbeddedResource Include="audios\zebu.wav" />
+    <EmbeddedResource Include="imagens\amapa.png" />
+    <EmbeddedResource Include="imagens\barata.png" />
+    <EmbeddedResource Include="imagens\barco.png" />
+    <EmbeddedResource Include="imagens\bife.png" />
+    <EmbeddedResource Include="imagens\boca.png" />
+    <EmbeddedResource Include="imagens\boi.png" />
+    <EmbeddedResource Include="imagens\bola.png" />
+    <EmbeddedResource Include="imagens\bolo.png" />
+    <EmbeddedResource Include="imagens\bone.png" />
+    <EmbeddedResource Include="imagens\bota.png" />
+    <EmbeddedResource Include="imagens\cabeca.png" />
+    <EmbeddedResource Include="imagens\camisa.png" />
+    <EmbeddedResource Include="imagens\caneta.png" />
+    <EmbeddedResource Include="imagens\casa.png" />
+    <EmbeddedResource Include="imagens\cavala.png" />
+    <EmbeddedResource Include="imagens\cobra.png" />
+    <EmbeddedResource Include="imagens\coco.png" />
+    <EmbeddedResource Include="imagens\cuca.png" />
+    <EmbeddedResource Include="imagens\cutia.png" />
+    <EmbeddedResource Include="imagens\dado.png" />
+    <EmbeddedResource Include="imagens\doce.png" />
+    <EmbeddedResource Include="imagens\ema.png" />
+    <EmbeddedResource Include="imagens\faca.png" />
+    <EmbeddedResource Include="imagens\figo.png" />
+    <EmbeddedResource Include="imagens\foca.png" />
+    <EmbeddedResource Include="imagens\girafa.png" />
+    <EmbeddedResource Include="imagens\iara.png" />
+    <EmbeddedResource Include="imagens\jabuti.png" />
+    <EmbeddedResource Include="imagens\jacare.png" />
+    <EmbeddedResource Include="imagens\jipe.png" />
+    <EmbeddedResource Include="imagens\leoa.png" />
+    <EmbeddedResource Include="imagens\lirio.png" />
+    <EmbeddedResource Include="imagens\lobo.png" />
+    <EmbeddedResource Include="imagens\lua.png" />
+    <EmbeddedResource Include="imagens\lula.png" />
+    <EmbeddedResource Include="imagens\luva.png" />
+    <EmbeddedResource Include="imagens\mapa.png" />
+    <EmbeddedResource Include="imagens\meia.png" />
+    <EmbeddedResource Include="imagens\moto.png" />
+    <EmbeddedResource Include="imagens\mula.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imagens\murici.png" />
+    <EmbeddedResource Include="imagens\muro.png" />
+    <EmbeddedResource Include="imagens\navio.png" />
+    <EmbeddedResource Include="imagens\neve.png" />
+    <EmbeddedResource Include="imagens\orca.png" />
+    <EmbeddedResource Include="imagens\ovo.png" />
+    <EmbeddedResource Include="imagens\para.png" />
+    <EmbeddedResource Include="imagens\parana.png" />
+    <EmbeddedResource Include="imagens\pato.png" />
+    <EmbeddedResource Include="imagens\peixe.png" />
+    <EmbeddedResource Include="imagens\penedo.png" />
+    <EmbeddedResource Include="imagens\peru.png" />
+    <EmbeddedResource Include="imagens\pilar.png" />
+    <EmbeddedResource Include="imagens\pipoca.png" />
+    <EmbeddedResource Include="imagens\rato.png" />
+    <EmbeddedResource Include="imagens\rosa.png" />
+    <EmbeddedResource Include="imagens\rua.png" />
+    <EmbeddedResource Include="imagens\sabia.png" />
+    <EmbeddedResource Include="imagens\saci.png" />
+    <EmbeddedResource Include="imagens\salada.png" />
+    <EmbeddedResource Include="imagens\sapato.png" />
+    <EmbeddedResource Include="imagens\sapo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imagens\seta.png" />
+    <EmbeddedResource Include="imagens\soletrando.png" />
+    <EmbeddedResource Include="imagens\som.png" />
+    <EmbeddedResource Include="imagens\sopa.png" />
+    <EmbeddedResource Include="imagens\suco.png" />
+    <EmbeddedResource Include="imagens\taxi.png" />
+    <EmbeddedResource Include="imagens\tilapia.png" />
+    <EmbeddedResource Include="imagens\tucano.png" />
+    <EmbeddedResource Include="imagens\urubu.png" />
+    <EmbeddedResource Include="imagens\uva.png" />
+    <EmbeddedResource Include="imagens\vaca.png" />
+    <EmbeddedResource Include="imagens\vela.png" />
+    <EmbeddedResource Include="imagens\violeta.png" />
+    <EmbeddedResource Include="imagens\zebu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="Vosk" Version="0.3.38" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
