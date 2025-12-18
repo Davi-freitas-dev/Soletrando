@@ -1,39 +1,45 @@
 # Soletrando
 
-##  Descrição
-O **Soletrando** é um projeto educacional desenvolvido para auxiliar no aprendizado da **ortografia correta das palavras**, utilizando **imagens como referência visual**.
+##  Descriï¿½ï¿½o
+O **Soletrando** ï¿½ um projeto educacional desenvolvido para auxiliar no aprendizado da **ortografia correta das palavras**, utilizando **imagens como referï¿½ncia visual**.
 
-O usuário **visualiza uma imagem**, identifica a palavra correspondente e **digita a soletração correta**, tornando o aprendizado mais intuitivo e interativo.
+O usuï¿½rio **visualiza uma imagem**, identifica a palavra correspondente e **digita a soletraï¿½ï¿½o correta**, tornando o aprendizado mais intuitivo e interativo.
 
 ---
 
 ##  Objetivo do Projeto
-- Auxiliar no processo de alfabetização
+- Auxiliar no processo de alfabetizaï¿½ï¿½o
 - Desenvolver a escrita correta das palavras
-- Estimular a associação entre imagem e palavra
-- Reforçar a memória visual e ortográfica
+- Estimular a associaï¿½ï¿½o entre imagem e palavra
+- Reforï¿½ar a memï¿½ria visual e ortogrï¿½fica
 
 ---
 
 ## Funcionalidades
-- Exibição de **imagens representando palavras**
-- Campo para o usuário **digitar a palavra soletrada**
-- Validação automática da resposta
-- Feedback imediato de acerto ou erro
-- Registro das palavras erradas
-- Opção de **jogar apenas com as palavras que o usuário errou**
-- Interface simples e fácil de usar
+-ExibiÃ§Ã£o de imagens representando palavras
+
+Campo para o usuÃ¡rio digitar a palavra soletrada
+
+BotÃ£o â€œOKâ€ para confirmar a resposta digitada
+
+VerificaÃ§Ã£o da resposta apÃ³s a confirmaÃ§Ã£o do usuÃ¡rio
+
+Feedback imediato de acerto ou erro
+
+Registro das palavras erradas durante o jogo
+
+OpÃ§Ã£o de jogar apenas com as palavras que o usuÃ¡rio errou
+
+Interface simples, intuitiva e fÃ¡cil de usar
 
 ---
 
-## Tecnologias Utilizadas
-- Linguagem: *(ex: C#, Python ou JavaScript — ajuste conforme o projeto)*
-- Ambiente: *(Console / Desktop / Web)*
+
 
 ---
 
 ##  Como Executar o Projeto
 
-1. Clone o repositório:
+1. Clone o repositï¿½rio:
    ```bash
    git clone https://github.com/seu-usuario/soletrando.git
